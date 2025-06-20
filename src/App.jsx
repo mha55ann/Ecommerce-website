@@ -4,7 +4,7 @@ import { ContextProvider } from "./components/ContextApi";
 import ExploreProducts from "./components/Exploreproducts";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import SaleItem from "./components/SaleItems";
 
 function App() {
