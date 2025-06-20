@@ -16,8 +16,10 @@ function ExploreProducts() {
       navigate("/details", {
         state: { array: [selectedProduct] },
       });
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
   };
+
   const handleCartClick = (e, id) => {
     e.stopPropagation(); // Prevents navigation to details
     const product = products.find((item) => item.id === id);

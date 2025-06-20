@@ -12,9 +12,8 @@ function SaleItem() {
 
   const handleClick = (id) => {
     const selectedProduct = data.products.find((item) => item.id === id);
-    navigate("/details", {
-      state: { array: [selectedProduct] },
-    });
+    navigate("/details", { state: { array: [selectedProduct] } });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const handleCartClick = (e, id) => {
