@@ -22,7 +22,7 @@ import Furniture from "./components/Furniture.jsx";
 import Fragrances from "./components/Fragrances.jsx";
 import Smartphones from "./components/Smartphones.jsx";
 import Tablets from "./components/Tablets.jsx";
-import Details from "./components/details.jsx";
+import Details from "./components/Details.jsx";
 import Cart from "./components/Cart.jsx";
 import Search from "./components/Search.jsx";
 import About from "./components/About.jsx";
