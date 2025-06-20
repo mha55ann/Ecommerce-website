@@ -46,19 +46,19 @@ const router = createBrowserRouter(
         }
       />
       {/* Other individual routes */}
-      <Route path="wfashion" element={<Women_fashion />} />
-      <Route path="mfashion" element={<Men_fashion />} />
-      <Route path="laptops" element={<Laptops />} />
-      <Route path="groceries" element={<Groceries />} />
-      <Route path="womens-jewellery" element={<Womens_jewellery />} />
-      <Route path="furniture" element={<Furniture />} />
-      <Route path="fragrances" element={<Fragrances />} />
-      <Route path="smartphones" element={<Smartphones />} />
-      <Route path="tablets" element={<Tablets />} />
-      <Route path="details" element={<Details />} />
-      <Route path="cart" element={<Cart />} />
-      <Route path="search" element={<Search />} />
-      <Route path="about" element={<About />} />
+      <Route path="/wfashion" element={<Women_fashion />} />
+      <Route path="/mfashion" element={<Men_fashion />} />
+      <Route path="/laptops" element={<Laptops />} />
+      <Route path="/groceries" element={<Groceries />} />
+      <Route path="/womens-jewellery" element={<Womens_jewellery />} />
+      <Route path="/furniture" element={<Furniture />} />
+      <Route path="/fragrances" element={<Fragrances />} />
+      <Route path="/smartphones" element={<Smartphones />} />
+      <Route path="/tablets" element={<Tablets />} />
+      <Route path="/details" element={<Details />} />
+      <Route path="/cart" element={<Cart />} />
+      <Route path="/search" element={<Search />} />
+      <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/sign-up" element={<SignUp />} />
       <Route path="/login" element={<Login />} />
